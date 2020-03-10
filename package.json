@@ -1,0 +1,11 @@
+{
+  "name": "hospital_mgmt",
+  "version": "1.0.0",
+  "description": "users list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hospital",
+  "license": "ISC"
+}

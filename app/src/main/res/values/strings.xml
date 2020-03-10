@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hospital_mgmt</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Enter the name</string>
+    <string name="address">Address</string>
+    <string name="address_hint">Enter the address</string>
+    <string name="number_hint">Enter the number</string>
+    <string name="contact_number">Phone Number</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="sign_out">Sign out</string>
+    <string name="MedLab">MedLab</string>
+    <string name="start_booking">Book Appointment</string>
+    <string name="about">About</string>
+</resources>

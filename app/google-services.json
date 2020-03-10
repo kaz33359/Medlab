@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "404076086012",
+    "firebase_url": "https://hospital-mgmt-1e680.firebaseio.com",
+    "project_id": "hospital-mgmt-1e680",
+    "storage_bucket": "hospital-mgmt-1e680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404076086012:android:3247c576691e5588",
+        "android_client_info": {
+          "package_name": "com.example.hospital_mgmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404076086012-7tnvpvogt2oak3vmlubvjv68fsuku6jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hospital_mgmt",
+            "certificate_hash": "7ec9361df9f4d4d17ac5c3890a0b4a20c416cd67"
+          }
+        },
+        {
+          "client_id": "404076086012-abd4p3jichlio64h9dqa7avqfl3f5v6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hospital_mgmt",
+            "certificate_hash": "baf82d6c044103f54e0da4c5a05f70b05d0da114"
+          }
+        },
+        {
+          "client_id": "404076086012-feuit8iuvovauul63aqtl6ukc296a6li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKg-5HdbxhF3FOHH3A-hvVA0jCL_VloE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404076086012-feuit8iuvovauul63aqtl6ukc296a6li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

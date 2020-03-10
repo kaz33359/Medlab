@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctor_Profile"
+    android:orientation="vertical"
+    android:background="@drawable/appback">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctor Profile"
+                android:textSize="30dp"
+                android:textColor="@color/textColour"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/doctorname_et"
+                android:inputType="textLongMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:hint="Name"/>
+
+
+            <EditText
+                android:id="@+id/doctorage_et"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:hint="Age"/>
+
+            <EditText
+                android:id="@+id/doctoraddress_et"
+                android:inputType="textLongMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:hint="Address"/>
+
+            <EditText
+                android:id="@+id/doctorphoneno_et"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:hint="Phone"/>
+
+
+
+
+            <RadioGroup
+                android:id="@+id/radiogroup_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Gender"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+
+
+                <RadioButton
+                    android:id="@+id/radiobtn_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Male"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/radiobtn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Female"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+
+            </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/doctorqualification_et"
+                android:inputType="textLongMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:hint="Qualification"/>
+
+
+            <EditText
+                android:id="@+id/doctorhospital_et"
+                android:inputType="textLongMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:hint="Hospital"/>
+
+
+
+            <Button
+                android:id="@+id/doctorupdate_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bubble"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff"
+                android:text="Update " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

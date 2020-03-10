@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appback"
+    android:orientation="vertical"
+    tools:context=".patient_Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="User Profile"
+                android:textColor="@color/textColour"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/patientname_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Name"
+                android:inputType="textLongMessage"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour" />
+
+
+            <EditText
+                android:id="@+id/patientage_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Age"
+                android:inputType="number"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour" />
+
+            <EditText
+                android:id="@+id/patientaddress_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Address"
+                android:inputType="textLongMessage"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour" />
+
+            <EditText
+                android:id="@+id/patientphoneno_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Emergency conact info"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/patientemergencyContactNo_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Emergency contact no"
+                android:inputType="phone"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour" />
+
+            <EditText
+                android:id="@+id/patientemergencyRelation_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Realtion"
+                android:inputType="textLongMessage"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour" />
+
+            <RadioGroup
+                android:id="@+id/patientradiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Gender"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+
+
+                <RadioButton
+                    android:id="@+id/male_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Male"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/female_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Female"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Blood group"
+                android:textColor="@color/textColour"
+                android:textColorHint="@color/textColour"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/patientradiogroup_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <RadioButton
+                    android:id="@+id/o_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="O"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/a_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/b_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="B"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ab_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="AB"
+                    android:textColor="@color/textColour"
+                    android:textColorHint="@color/textColour"
+                    android:textSize="20dp" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/patientupdate_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bubble"
+                android:text="Update"
+                android:textColor="#ffffff"
+                android:textColorHint="#8effffff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

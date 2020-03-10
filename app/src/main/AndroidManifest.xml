@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospital_mgmt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/MedLab"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".doctor_Appointments"></activity>
+        <activity android:name=".Welcome_Screen" />
+        <activity android:name=".patient_Chat" />
+        <activity android:name=".patient_ChatMain" />
+        <activity android:name=".Chat" />
+        <activity android:name=".ChatMain" />
+        <activity android:name=".patient_RetrieveData" />
+        <activity android:name=".doctor_RetrieveData" />
+        <activity android:name=".patient_Profile" />
+        <activity android:name=".patient_Dashboard" />
+        <activity android:name=".patient_Registration" />
+        <activity android:name=".patient_Login" />
+        <activity android:name=".doctor_Profile" />
+        <activity android:name=".doctor_Registration" />
+        <activity android:name=".doctor_Login" />
+        <activity android:name=".doctor_Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AvailabilityActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BookingActivity" />
+    </application>
+
+</manifest>

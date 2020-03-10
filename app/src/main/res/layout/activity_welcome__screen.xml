@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_Screen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/appback"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="82dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="288dp"
+            android:src="@drawable/logo" />
+
+
+        <Button
+            android:id="@+id/doctor_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble"
+            android:text="Doctor"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff" />
+
+        <Button
+            android:id="@+id/patient_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bubble"
+            android:text="Patient"
+            android:textColor="#ffffff"
+            android:textColorHint="#8effffff" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

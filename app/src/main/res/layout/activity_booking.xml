@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appback"
+    tools:context=".BookingActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/textView"
+        android:textColor="@color/textColour"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name_input"/>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/name_hint"
+        android:inputType="textLongMessage"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desease"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView3"
+        android:textColor="@color/textColour"
+        android:layout_below="@+id/name_input"
+        android:layout_alignParentStart="@+id/name_input"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+    <EditText
+        android:id="@+id/address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Enter the desease"
+        android:inputType="textLongMessage"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="@+id/textView3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_number"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textColour"
+        android:layout_below="@+id/address_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"/>
+
+
+    <EditText
+        android:id="@+id/phone_numb_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/number_hint"
+        android:inputType="phone"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="@+id/textView2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textColour"
+        android:layout_below="@+id/address_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"/>
+
+
+    <EditText
+        android:id="@+id/doctor_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Enter Doctor name"
+        android:inputType="textLongMessage"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="@+id/textView2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textColour"
+        android:layout_below="@+id/address_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"/>
+
+
+    <EditText
+        android:id="@+id/hospital_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Enter Hospital name"
+        android:inputType="textLongMessage"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="@+id/textView2"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble"
+        android:onClick="ConfirmationClicked"
+        android:text="@string/start_booking"
+        android:visibility="visible"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
